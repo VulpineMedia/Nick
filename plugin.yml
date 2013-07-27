@@ -1,0 +1,23 @@
+name: Nick
+ version: 0.0.1
+ description: Mit diesem Plugin kannst du deinen Namen einfach welchseln.
+ author: Vulpine
+ authors: [Zwoerni200] 
+website: http://youtube.com/VulpineMedia
+ 
+ main: me.Vulpine.Nick.main
+ database: false
+ depend: 
+ 
+ commands:
+   nick:
+     description: Change your Nick.
+     aliases: 
+     permission: nick.use
+     usage: /nick Name
+ 
+ permissions:
+   nick.use:
+     description: Gives access to change your Nick
+     permission: nick.use
+     permission-message: NOPE
